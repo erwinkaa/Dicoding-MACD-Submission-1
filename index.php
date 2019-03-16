@@ -53,7 +53,7 @@ if (isset($_POST['submit'])) {
 
     <div class="container">
 
-        <form action="index.php">
+        <form action="index.php" method="POST">
           <div class="form-group">
             <label for="name">Name:</label>
             <input type="text" class="form-control" name="name" id="name" required="">
