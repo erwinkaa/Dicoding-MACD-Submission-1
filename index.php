@@ -53,6 +53,7 @@ if (isset($_POST['submit'])) {
 
     <div class="container">
 
+        <h1 class="text-center">Azure Cloud Development!</h1>
         <form action="index.php" method="POST">
           <div class="form-group">
             <label for="name">Name:</label>
@@ -69,6 +70,8 @@ if (isset($_POST['submit'])) {
         <input type="submit" class="btn btn-default" name="submit" value="Submit">
     </form>
 
+    <br>
+    <br>
     <?php
     try {
         $sql_select = "SELECT * FROM persons";
